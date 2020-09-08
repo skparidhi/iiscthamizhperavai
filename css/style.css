@@ -1434,5 +1434,16 @@ h3.quote::before {
   }
 }
 
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #ff0000;    }
+    49%{    color: #ff0000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #ff0000;    }
+}
+
 
 /*# sourceMappingURL=maps/style.css.map */
